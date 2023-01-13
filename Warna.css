@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.poto{
+    width : 100%;
+    height :100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(gambar3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navigasi{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    padding: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 75px;
+
+    cursor: pointer;
+}
+
+.navigasi  ul li{
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+position: relative;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.navigasi  ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    
+
+}
+
+.navigasi  ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #96002a;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navigasi  ul li:hover::after{
+    width: 100%;
+
+    
+}
+.isi{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.isi h1{
+    font-size: 70px;
+    margin-top: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.isi p{
+    margin : 15px auto;
+    font-weight: 25px;
+    line-height: 30px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    
+}
+
+
+.coba{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    
+    border: solid 2px #96002a;
+    border-radius: 50px;
+
+    padding: 10px 70px;
+
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+
+}
+
+.coba:hover{
+    background-color: #96002a;
+    color: #fff;
+}
+
+ul{
+    margin-left: 10px;
+}
