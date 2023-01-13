@@ -1,6 +1,6 @@
-## Liburin Aja
+## Web Pasriwisata Madiun
 
-Website Static seputar info tempat pariwisata dan kuliner untuk daerah Banten, Jakarta, Jawa Barat, Jawa Tengah, Yogyakarta, dan Jawa Timur
+Website Static seputar info tempat pariwisata dan kuliner pada daerah Madiun, Jawa Timur.
 
 ### Languages and Tools :
 
